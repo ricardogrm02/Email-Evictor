@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../static/webpage.css">
+        <title>Email Evictor</title>
+    </head>
+    <body class="backgroundStyle">
+        <header class ="navbarStyle">
+            <p>Home</p>
+            <p>Login</p>
+            <p>About Us</p>
+            <p>Meet the Team</p>
+        </header>
+        <div class="mainBodyStyle">
+            <h1 class="bodyText">Initial Training Results</h1>
+                <pre class ="bodyText">Accuracy Score: {{accuracy}}</pre>
+                <pre class ="bodyText">AI Training & Prediction Time: {{training_time}}</pre>
+                <pre class="emailText">Email Entered: {{user_email_input}}</pre>
+                <prev class="resultText">SPAM OR HAM RESULT: {{prediction_result}}</prev>
+            <h1 class="bodyText">Enter Email Text</h1>
+            <form class="formStyle"  method="POST" action="/">
+                <input class= "inputStyle" type="text" name="email">
+                <button class ="buttonStyle" type="submit">Submit Email</button>
+            </form>
+        </div>
+    </body>
+</html>

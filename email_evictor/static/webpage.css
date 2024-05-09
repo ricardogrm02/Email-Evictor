@@ -1,0 +1,99 @@
+.backgroundStyle {
+    background-color: #025ca9;
+    /*other */
+    justify-content: center;
+    align-items: center; 
+}
+
+.bodyText{
+    color: #151922;
+    font-family: system-ui, -apple-system;
+}
+
+.resultText{
+    color: red;
+    font-family: system-ui, -apple-system;
+}
+
+.emailText {
+    color: #151922;
+    font-family: system-ui, -apple-system;
+    overflow: auto;
+    word-wrap: break-word;
+    width: 500px;
+}
+
+
+.navbarStyle{
+    background-color: #d3dcde;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Evenly distribute items */
+    align-items: center; /* Align items vertically */
+    font-family: system-ui, -apple-system;
+    color: #202020;
+    box-shadow: 0px 3px 3px #9e9e9e;
+}
+
+.mainBodyStyle {
+    background-color: #e5d3b3;
+    border-radius: 20px;
+    height:600px;
+    width: 1200;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBodyContextStyle {
+    justify-content: center;
+    align-items: center;
+}
+
+.inputStyle {
+    border-radius: 10px;
+    border-color: #025ca9;
+    border-width: 2px;
+    height: 100px;
+    width:  1000px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.mainBody{
+    color: #fcfcfc;
+    font-family: system-ui, -apple-system;
+}
+
+.formStyle {
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column
+}
+
+.buttonStyle {
+    background-color:#fcfcfc;
+    color: #151922;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    margin: auto
+}
+
+
+
+
+/* .navbarStyle {
+
+} */
+
+/* .navbarTextStyle {
+
+} */
